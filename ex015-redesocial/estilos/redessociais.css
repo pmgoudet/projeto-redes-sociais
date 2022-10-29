@@ -34,3 +34,27 @@ section#telefone {
     background: url(../imagens/imagens/frame-iphone.png) center center no-repeat fixed;
 }
 
+iframe {
+    display: block;
+    margin: auto;
+    margin-top: 81px;
+}
+
+section#redes-sociais {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    justify-content: right;
+}
+
+section#redes-sociais img {
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.65);
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+section#redes-sociais img:hover {
+    transform: scale(1.05); 
+}
