@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body  {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+body  {
+    background: url(../imagens/imagens/fundo-corinthians2.jpg) center right no-repeat fixed;
+    background-size: cover;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 627px;
+    width: 311px;
+    background: url(../imagens/imagens/frame-iphone.png) center center no-repeat fixed;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    margin-top: 81px;
+}
+
+section#redes-sociais {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    justify-content: left;
+}
+
+section#redes-sociais img {
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: -2px 0px 5px rgba(255, 255, 255, 0.65);
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+section#redes-sociais img:hover {
+    transform: translate(5px, -5px);
+    box-shadow: -5px 0px 10px rgba(255, 255, 255, 0.65);
+    border: 2px solid rgb(255, 255, 255);
+    transition: transform 0.2s, border 0.2s;
+}
