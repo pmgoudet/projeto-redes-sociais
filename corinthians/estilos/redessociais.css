@@ -20,7 +20,6 @@ body  {
 main {
     position: relative;
     height: 100vh;
-    width: 100vw;
 }
 
 section#telefone {
@@ -34,7 +33,7 @@ section#telefone {
     background: url(../imagens/imagens/frame-iphone.png) no-repeat;
 }
 
-iframe {
+iframe#tela {
     display: block;
     margin: auto;
     margin-top: 81px;
@@ -48,7 +47,7 @@ section#redes-sociais {
 }
 
 section#redes-sociais img {
-    height: 70px;
+    height: 50px;
     border-radius: 50%;
     box-shadow: -2px 0px 5px rgba(255, 255, 255, 0.65);
     box-sizing: border-box;

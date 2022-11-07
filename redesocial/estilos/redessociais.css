@@ -33,7 +33,7 @@ section#telefone {
     background: url(../imagens/imagens/frame-iphone.png) no-repeat;
 }
 
-iframe {
+iframe#tela {
     display: block;
     margin: auto;
     margin-top: 81px;
