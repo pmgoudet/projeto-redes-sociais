@@ -13,7 +13,7 @@ html, body  {
 }
 
 body  {
-    background: url(../imagens/imagens/fundo-corinthians2.jpg) center right no-repeat fixed;
+    background: url(../imagens/imagens/fundo-corinthians.jpg) center center no-repeat fixed;
     background-size: cover;
 }
 
@@ -43,8 +43,8 @@ iframe#tela {
 section#redes-sociais {
     position: absolute;
     top: 30px;
-    left: 30px;
-    justify-content: left;
+    right: 30px;
+    justify-content: right;
 }
 
 section#redes-sociais img {
@@ -56,8 +56,8 @@ section#redes-sociais img {
 }
 
 section#redes-sociais img:hover {
-    transform: translate(5px, -5px);
+    transform: translate(2px, -2px);
     box-shadow: -5px 0px 10px rgba(255, 255, 255, 0.65);
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgba(255, 255, 255, 0.625);
     transition: transform 0.2s, border 0.2s;
 }
